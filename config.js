@@ -1,5 +1,5 @@
 module.exports = {
-  awsAccesskeyID: "AKIAIO47LPB2AHBT7N4Q",
-  awsSecretAccessKey: "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",
+  awsAccesskeyID: "AKIAJLHUDYZ2JEBCM5CQ",
+  awsSecretAccessKey: "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",
   awsRegion: "us-east-1"
 };
