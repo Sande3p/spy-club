@@ -2,11 +2,11 @@ const _ = require("lodash");
 const aws = require("aws-sdk");
 const config = require("./config");
 
-aws.config.update({
-  accessKeyId: config.awsAccesskeyID,
-  secretAccessKey: config.awsSecretAccessKey,
-  region: config.awsRegion
-});
+// aws.config.update({
+//   accessKeyId: config.awsAccesskeyID,
+//   secretAccessKey: config.awsSecretAccessKey,
+//   region: config.awsRegion
+// });
 
 const textract = new aws.Textract();
 
